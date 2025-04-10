@@ -122,6 +122,7 @@ section.topo-do-site .flex {
 
 .topo-do-site P {
     color: #fff;
+    font-size: 22px;
     margin: 40px 0;
 }
 
@@ -165,6 +166,11 @@ section.especialidades {
     margin: 15px 0;
 }
 
+.especialidades .especialidades-box p {
+    font-size: 22px;
+    text-align:left;
+    line-height: 150%;
+}
 .flex {
     gap: 60px;
     display: flex;
@@ -201,6 +207,7 @@ section.sobre .flex {
 
 .sobre .txt-sobre p {
     margin: 20px 0;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -215,6 +222,7 @@ section.sobre .flex {
     margin: 0 5px;
     transition: .2s;
 }
+
 
 /*PORTIFÓLIO*/
 
