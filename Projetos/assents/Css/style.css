@@ -10,6 +10,11 @@ body {
     margin: 0 auto;
 }
 
+.interface p {
+    color: #fff;
+    margin-top: 0;
+}
+
 button:hover,
 form .btn-enviar input:hover {
     box-shadow: 0px 0px 8px #F58025;
@@ -55,7 +60,15 @@ header {
     background-color: #000; /* ou a cor que preferir, evita transparência */
     z-index: 1000;
 }
-header a {
+
+header .logo .cv a{
+    color: #fff;
+    margin-top: -20px;
+    text-decoration: none;
+}
+
+
+header .menu-desktop a {
     color: #7d7d7d;
     font-size: 25px;
     text-decoration: none;
@@ -216,6 +229,15 @@ section.sobre .flex {
     font-size: 20px;
     text-align: justify;
 }
+
+.sobre img {
+        
+    width: 400px;
+        /* Defina a largura desejada */
+    position: relative;
+    left: -60px;
+    border-radius: 30px;
+    }
 
 .btn-social button {
     width: 60px;
